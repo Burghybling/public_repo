@@ -10,11 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run top issues action
-        uses: rickstaa/top-issues-action@7e8dda5d5ae3087670f9094b9724a9a091fc3ba1  # v1.3.101
-        with:
-          label: true
-          dashboard: true
-          dashboard_show_total_reactions: true
-          top_issues: true
-          top_pull_requests: true
-          top_list_size: 10
+        uses: burghyburghy/composite_action@master

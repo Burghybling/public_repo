@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run top issues action
-        uses: burghyburghy/composite_action@master
+        uses: burghyburghy/composite_action@main

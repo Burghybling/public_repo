@@ -1,4 +1,4 @@
-name: Top issues
+name: Top issues","
 on:
   schedule:
     - cron: '0 0 */1 * *'
